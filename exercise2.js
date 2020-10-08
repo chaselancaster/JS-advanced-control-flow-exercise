@@ -14,8 +14,8 @@ function moveCommand(direction) {
   var whatHappens;
   switch (direction) {
     case "forward":
-      break;
       whatHappens = "you encounter a monster";
+      break;
     case "back":
       whatHappens = "you arrived home";
       break;
