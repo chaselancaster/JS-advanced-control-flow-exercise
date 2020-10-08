@@ -23,7 +23,6 @@ function moveCommand(direction) {
       whatHappens = "you found a river";
       break;
     case "left":
-      break;
       whatHappens = "you run into a troll";
       break;
     default:
