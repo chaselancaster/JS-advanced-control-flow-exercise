@@ -7,9 +7,7 @@ function experiencePoints() {
   }
 }
 
-let experiencePoints = function experiencePoints() {
-  return winBattle() ? 10 : 1;
-};
+let experiencePoints = winBattle() ? 10 : 1;
 
 //Using this function, answer the questions below:
 function moveCommand(direction) {
