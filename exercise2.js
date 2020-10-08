@@ -19,7 +19,6 @@ function moveCommand(direction) {
     case "back":
       whatHappens = "you arrived home";
       break;
-      break;
     case "right":
       return (whatHappens = "you found a river");
       break;
