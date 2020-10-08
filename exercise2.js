@@ -20,7 +20,7 @@ function moveCommand(direction) {
       whatHappens = "you arrived home";
       break;
     case "right":
-      return (whatHappens = "you found a river");
+      whatHappens = "you found a river";
       break;
     case "left":
       break;
